@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GPA_Vuthunoorik1_CALCULATOR</string>
+    <string name="compute_gpa">Compute GPA</string>
+    <string name="gpa">GPA</string>
+    <string name="course_5">COurse_5</string>
+    <string name="course_4">Course 4</string>
+    <string name="course_3">Course 3</string>
+    <string name="course_2">Course 2</string>
+    <string name="course_1">Course 1</string>
+    <string name="_0_0" />
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/course1_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/course_1"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/course1_grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/course1_label"
+        android:layout_marginTop="8dp"
+        android:inputType="text"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"/>
+
+    <TextView
+        android:id="@+id/course2_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/course_2"
+        android:layout_below="@id/course1_grade"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/course2_grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/course2_label"
+        android:layout_marginTop="8dp"
+        android:inputType="text"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"/>
+
+    <TextView
+        android:id="@+id/course3_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/course_3"
+        android:layout_below="@id/course2_grade"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/course3_grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/course3_label"
+        android:layout_marginTop="8dp"
+        android:inputType="text"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        android:autofillHints=""
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/course4_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/course_4"
+        android:layout_below="@id/course3_grade"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/course4_grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/course4_label"
+        android:layout_marginTop="8dp"
+        android:inputType="text"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        android:autofillHints=""
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/course5_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/course_5"
+        android:layout_below="@id/course4_grade"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/course5_grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/course5_label"
+        android:layout_marginTop="8dp"
+        android:inputType="text"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        android:autofillHints=""
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/compute_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/course5_grade"
+        android:layout_marginTop="16dp"
+        android:text="@string/compute_gpa"/>
+
+    <TextView
+        android:id="@+id/gpa_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/compute_button"
+        android:layout_marginTop="16dp"
+        android:text="@string/gpa"/>
+
+    <TextView
+        android:id="@+id/display_gpa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/gpa_label"
+        android:layout_below="@id/compute_button"
+        android:layout_marginTop="16dp"
+        android:text="@string/_0_0"/>
+
+</RelativeLayout>
